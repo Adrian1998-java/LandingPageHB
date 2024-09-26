@@ -1,0 +1,108 @@
+.container{
+  position: relative;
+  left: 0px;
+}
+
+.row{
+  display: flex;
+  flex-flow: column;
+  padding-top: 5%;
+  align-items: center;
+  /* background-color: red; */
+}
+.card {
+  background-color: #fff;
+  border-radius: 10px;
+  border: none;
+  position: relative;
+  margin-bottom: 30px;
+  box-shadow: 0 0.46875rem 2.1875rem rgba(90,97,105,0.1), 0 0.9375rem 1.40625rem rgba(90,97,105,0.1), 0 0.25rem 0.53125rem rgba(90,97,105,0.12), 0 0.125rem 0.1875rem rgba(90,97,105,0.1);
+}
+
+@font-face {
+  font-family: "HB_Tipografía";
+  src: url(/fonts/LinBiolinum_R.ttf);
+  font-weight: bold;
+  font-style: bold;
+}
+h2 {
+  font-family: 'HB_Tipografía', sans-serif;
+  text-align: center;
+  font-size: 50px;
+  margin-bottom: 100px;
+}
+
+.l-bg-orange-dark, .active {
+  background: #807551;
+  color: #fff;
+}
+
+.l-bg-blanck{
+  background: #fff;
+}
+
+.card .card-statistic-3 .card-icon-large .fas, .card .card-statistic-3 .card-icon-large .far, .card .card-statistic-3 .card-icon-large .fab, .card .card-statistic-3 .card-icon-large .fal {
+  font-size: 110px;
+}
+
+.card .card-statistic-3 .card-icon {
+  text-align: center;
+  line-height: 50px;
+  margin-left: 15px;
+  color: #000;
+  position: absolute;
+  right: -5px;
+  top: 20px;
+  opacity: 0.1;
+}
+
+.card .card-statistic-3, .modal-body.l-bg-orange-dark{
+  /* padding-left: 50%; */
+  display: flex;
+  flex-flow: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+
+
+/* Display Modal */
+.modal-content{
+  min-height: 1000px;
+  min-width: 650px;
+}
+
+.modal-fullscreen {
+  width: 100vw; /* Ancho completo de la ventana */
+  height: 100vh; /* Altura completa de la ventana */
+  margin: 0;
+  padding: 0;
+  max-width: none; /* Sobreescribe el valor máximo de ancho del modal */
+}
+
+.modal-title, .close{
+font-size: 50px;
+right: 100px;
+}
+.modal-header{
+display: flex;
+align-items: center;
+justify-content: center;
+right: 50px;
+}
+.card-image{
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column; 
+row-gap: 20px;
+
+}
+.btn.btn-primary.btnGo{
+font-size: 50px;
+width: 100px;
+}
+
+.text-message{
+font-size: 50px;
+}
